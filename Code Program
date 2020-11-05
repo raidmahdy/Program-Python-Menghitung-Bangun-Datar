@@ -109,3 +109,16 @@ while pilihan !=0:
         print("Luas Lingkaran : ", kelilinglingkaran(r))
         print("")
         print("")
+    elif pilihan ==9:
+        a=int(input("Masukan Alas Jajargenjang : "))
+        t=int(input("Masukan Tinggi Jajargenjang : "))
+        print("Luas Segitiga : ", luasjajargenjang(a,t))
+        print("")
+        print("")
+    elif pilihan ==10:
+        a=int(input("Masukan Alas Jajargenjang : "))
+        s=int(input("Masukan Sisi Miring Jajargenjang : "))
+        print("Luas Segitiga : ", luasjajargenjang(a,t))
+        print("")
+        print("")
+   
