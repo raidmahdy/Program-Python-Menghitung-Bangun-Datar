@@ -86,3 +86,16 @@ while pilihan !=0:
         print("keliling Persegi Panjang : ", kelilingpersegipanjang(p,l))
         print("")
         print("")
+    elif pilihan ==5:
+        a=int(input("Masukan Alas Segitiga : "))
+        t=int(input("Masukan Tinggi Segitiga : "))
+        print("Luas Segitiga : ", luassegitiga(a,t))
+        print("")
+        print("")
+    elif pilihan ==6:
+        s1=int(input("Masukan sisi1 Segitiga : "))
+        s2=int(input("Masukan sisi2 Segitiga : "))
+        s3=int(input("Masukan sisi3 Segitiga : "))
+        print("keliling Persegi Panjang : ", kelilingsegitiga(s1,s2,s3))
+        print("")
+        print("")
