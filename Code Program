@@ -51,3 +51,10 @@ while pilihan !=0:
     print("9. Menghitung Luas")
     print("10. MenghitungKeliling") 
     print("0. Keluar")
+    
+#inputan/masukan
+    print("")
+    print("")
+    pilihan=int(input("Masukan Pilihan Anda : "))
+    print("")
+    print("")
