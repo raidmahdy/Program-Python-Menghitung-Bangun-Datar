@@ -3,3 +3,12 @@
 #Jobsheet Dasprog 4
 
 #SISTEM PEMBELAJARAN MATEMATIKA
+#Program Menghitung Bangun Datar
+#fungsi
+def luaspersegi(sisi):
+    luas = sisi * sisi
+    return(luas)
+def kelilingpersegi(sisi):
+    keliling = 4 * sisi
+    return(keliling)
+    
