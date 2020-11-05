@@ -74,3 +74,15 @@ while pilihan !=0:
         print("Keliling Persegi : ", kelilingpersegi(s))
         print("")
         print("")
+    elif pilihan ==3:
+        p=int(input("Masukan panjang Persegi Panjang : "))
+        l=int(input("Masukan lebar Persegi Panjang : "))
+        print("Luas Persegi Panjang : ", luaspersegipanjang(p,l))
+        print("")
+        print("")
+    elif pilihan ==4:
+        p=int(input("Masukan panjang Persegi Panjang : "))
+        l=int(input("Masukan lebar Persegi Panjang : "))
+        print("keliling Persegi Panjang : ", kelilingpersegipanjang(p,l))
+        print("")
+        print("")
