@@ -121,4 +121,7 @@ while pilihan !=0:
         print("Luas Segitiga : ", luasjajargenjang(a,t))
         print("")
         print("")
-   
+    else:
+        print("Input yang Anda Masukan Salah")
+        print("")
+        print("")
