@@ -99,3 +99,13 @@ while pilihan !=0:
         print("keliling Persegi Panjang : ", kelilingsegitiga(s1,s2,s3))
         print("")
         print("")
+   elif pilihan ==7:
+        r=int(input("Masukan Jari-jari lingkaran : "))
+        print("Luas Lingkaran : ", luaslingkaran(r))
+        print("")
+        print("")
+   elif pilihan ==8:
+        r=int(input("Masukan Jari-jari lingkaran : "))
+        print("Luas Lingkaran : ", kelilinglingkaran(r))
+        print("")
+        print("")
