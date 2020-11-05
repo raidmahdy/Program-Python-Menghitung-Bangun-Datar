@@ -29,3 +29,9 @@ def luaslingkaran(r):
 def kelilinglingkaran(r)
     keliling = 2*3.14*r
     return(keliling)
+def luasjajargenjang(alas, tinggi):
+    luas = alas*tinggi
+    return(luas)
+def kelilingjajargenjang(alas, sisimiring):
+    keliling = 2*(alas+sisimiring)
+    return(keliling)
