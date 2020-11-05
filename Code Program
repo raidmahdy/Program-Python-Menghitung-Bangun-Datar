@@ -11,4 +11,10 @@ def luaspersegi(sisi):
 def kelilingpersegi(sisi):
     keliling = 4 * sisi
     return(keliling)
+def luaspersegipanjang(panjang, lebar):
+    luas = panjang * lebar
+    return(luas)
+def kelilingpersegipanjang(panjang, lebar):
+    keliling = 2*(panjang+lebar)
+    return(keliling)
     
