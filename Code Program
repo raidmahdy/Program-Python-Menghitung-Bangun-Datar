@@ -58,3 +58,19 @@ while pilihan !=0:
     pilihan=int(input("Masukan Pilihan Anda : "))
     print("")
     print("")
+
+
+#Program 
+#Pemanggilan Fungsi
+
+    if pilihan ==1:
+        print("Menghitung Luas Persegi")
+        s=int(input("Masukan sisi Persegi : "))
+        print("Luas Persegi : ", luaspersegi(s))
+         print("")
+        print("")
+    elif pilihan ==2:
+        s=int(input("Masukan sisi Persegi : "))
+        print("Keliling Persegi : ", kelilingpersegi(s))
+        print("")
+        print("")
