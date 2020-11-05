@@ -35,3 +35,19 @@ def luasjajargenjang(alas, tinggi):
 def kelilingjajargenjang(alas, sisimiring):
     keliling = 2*(alas+sisimiring)
     return(keliling)
+    
+#Program utama
+#Untuk Menampilkan Menu
+pilihan1
+while pilihan !=0:
+    print("1. Menghitung Luas Persegi")
+    print("2. Menghitung keliling Persegi")
+    print("3. Menghitung Luas")
+    print("4. Menghitung Keliling")
+    print("5. Menghitung Luas")
+    print("6. MenghitungKeliling")
+    print("7. Menghitung Luas")
+    print("8. MenghitungKeliling")
+    print("9. Menghitung Luas")
+    print("10. MenghitungKeliling") 
+    print("0. Keluar")
